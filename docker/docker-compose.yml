@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  mongo:
+    image: mongo:latest
+
+  reader:
+    image: distributed_course_docker:reader
+
+  writer:
+    image: distributed_course_docker:writer
